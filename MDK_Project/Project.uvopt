@@ -514,10 +514,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>21</ColumnNumber>
+      <ColumnNumber>18</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>2752</TopLine>
-      <CurrentLine>2752</CurrentLine>
+      <TopLine>1750</TopLine>
+      <CurrentLine>1757</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\mainV1.c</PathWithFileName>
       <FilenameWithoutPath>mainV1.c</FilenameWithoutPath>
@@ -661,10 +661,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>20</ColumnNumber>
+      <ColumnNumber>14</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1223</TopLine>
-      <CurrentLine>1237</CurrentLine>
+      <TopLine>1066</TopLine>
+      <CurrentLine>1071</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\li_code\app.c</PathWithFileName>
       <FilenameWithoutPath>app.c</FilenameWithoutPath>
@@ -719,7 +719,7 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>E:\RDS资料\项目程序(发射)\发射机程序V3.7\li_code\all.h</PathWithFilename>
+    <PathWithFilename>E:\RDS资料\项目程序(发射)\发射机程序_Git\li_code\all.h</PathWithFilename>
     <TopLine>87</TopLine>
     <CurrentLine>98</CurrentLine>
     <Constant>0</Constant>
@@ -745,7 +745,7 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>E:\RDS资料\项目程序(发射)\发射机程序V3.7\i2c.h</PathWithFilename>
+    <PathWithFilename>E:\RDS资料\项目程序(发射)\发射机程序_Git\i2c.h</PathWithFilename>
     <TopLine>90</TopLine>
     <CurrentLine>90</CurrentLine>
     <Constant>0</Constant>
@@ -797,7 +797,7 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>E:\RDS资料\项目程序(发射)\发射机程序V3.7\show.h</PathWithFilename>
+    <PathWithFilename>E:\RDS资料\项目程序(发射)\发射机程序_Git\show.h</PathWithFilename>
     <TopLine>8</TopLine>
     <CurrentLine>22</CurrentLine>
     <Constant>0</Constant>
@@ -823,7 +823,7 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>E:\RDS资料\项目程序(发射)\发射机程序V3.7\anjian.h</PathWithFilename>
+    <PathWithFilename>E:\RDS资料\项目程序(发射)\发射机程序_Git\anjian.h</PathWithFilename>
     <TopLine>13</TopLine>
     <CurrentLine>21</CurrentLine>
     <Constant>0</Constant>
@@ -869,9 +869,9 @@
         </Doc>
         <Doc>
           <Name>..\mainV1.c</Name>
-          <ColumnNumber>21</ColumnNumber>
-          <TopLine>2752</TopLine>
-          <CurrentLine>2752</CurrentLine>
+          <ColumnNumber>55</ColumnNumber>
+          <TopLine>1546</TopLine>
+          <CurrentLine>1551</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\li_code\adc.c</Name>
@@ -905,9 +905,9 @@
         </Doc>
         <Doc>
           <Name>..\li_code\app.c</Name>
-          <ColumnNumber>20</ColumnNumber>
-          <TopLine>1223</TopLine>
-          <CurrentLine>1237</CurrentLine>
+          <ColumnNumber>23</ColumnNumber>
+          <TopLine>1046</TopLine>
+          <CurrentLine>1053</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\i2c.h</Name>

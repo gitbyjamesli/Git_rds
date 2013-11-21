@@ -1548,7 +1548,7 @@ name_pos_update:
 			}
 			else
 			{
-				if(Name_pos==7)// 保存处
+				if(Name_pos==7)// 保存处 
 				{
 					memcpy(&Area_Name[num][0],name_string,7);
 					Area_Name_Save();
@@ -1790,7 +1790,7 @@ void Setup_RDSMode(uint8_t num)
 		gb_Group_num=&(dev_select_pos.y);
 		gb_terminal_num=&(dev_select_pos.x);
 area_update:
-		GetArea_DevStatus(area_num);             // 获取整个区域下的终端状态信息
+		//GetArea_DevStatus(area_num);             // 获取整个区域下的终端状态信息
 		Show_DevStatus_Group(0,0);               // 0行上显示0组终端状态
 		Show_DevStatus_Group(1,1);               // 1行	  1组
 		Show_DevStatus_Group(2,2);               // 2行	  2组
@@ -1938,6 +1938,7 @@ gb_update:
 					{
 						case 1:
 							if(++area_num>9)area_num=0;
+							GetArea_DevStatus(area_num);
 							goto area_update;
 
 						case 2:
@@ -1979,6 +1980,7 @@ gb_update:
 					{
 						case 1:
 							if(--area_num>9)area_num=9;
+							GetArea_DevStatus(area_num);
 							goto area_update;
 
 						case 2:
@@ -2129,6 +2131,7 @@ gb_update:
 						area_num=AreaName_pos;
 						psys_data->ui_areanum=AreaName_pos;
 						SYS_PARAMETER_Save();//保存区域号
+						GetArea_DevStatus(area_num);
 						Show_Area_Name(AreaName_pos);
 					}
 					break;
@@ -2165,6 +2168,7 @@ gb_update:
 						area_num=AreaName_pos;
 						psys_data->ui_areanum=AreaName_pos;
 						SYS_PARAMETER_Save();//保存区域号
+						GetArea_DevStatus(area_num);
 						Show_Area_Name(AreaName_pos);
 					}
 					break;
@@ -2758,8 +2762,8 @@ tab1:
 		     if(HighTempWarning_Flag==RESET	&&
 			    HighCURRENTWarning_Flag==RESET &&
 				HighSWRWarning_Flag==RESET&&
-		        //HighPRWarning_Flag == RESET && 
-		        //HighLPWarning_Flag == RESET 
+		        HighPRWarning_Flag == RESET && 
+		        HighLPWarning_Flag == RESET 
 				)
 			 {
 			  Pin_PTT_OPEN(); 

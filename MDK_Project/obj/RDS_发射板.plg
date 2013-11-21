@@ -7,3 +7,198 @@ E:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\Project.uvproj
 Project File Date:  10/11/2013
 
 <h2>Output:</h2>
+Build target 'Target1'
+compiling mainV1.c...
+..\mainV1.c(169): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(374): warning:  #177-D: variable "DMA_InitStructure" was declared but never referenced
+..\mainV1.c(693): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(698): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(707): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(978): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(988): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1085): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(793): warning:  #177-D: variable "petmp" was declared but never referenced
+..\mainV1.c(1188): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1197): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1239): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1371): warning:  #223-D: function "PS_Name_Save" declared implicitly
+..\mainV1.c(1554): warning:  #223-D: function "Area_Name_Save" declared implicitly
+..\mainV1.c(1754): warning:  #223-D: function "RDS_DevicesGroup_Mode_Update" declared implicitly
+..\mainV1.c(1894): warning:  #223-D: function "RDS_DevicesGroup_Mode_Save" declared implicitly
+..\mainV1.c(2120): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2131): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2156): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2167): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2656): warning:  #223-D: function "SYS_PARAMETER_Update" declared implicitly
+..\mainV1.c(2745): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2768): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2603): warning:  #177-D: variable "ledflash" was declared but never referenced
+..\mainV1.c(3432): warning:  #223-D: function "Draw_UpdateToLCD" declared implicitly
+..\mainV1.c(3308): warning: C3017W: status_save may be used before being set
+..\mainV1.c(3308): warning: C3017W: status_tmp may be used before being set
+linking...
+Program Size: Code=36906 RO-data=4018 RW-data=540 ZI-data=20700  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 27 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36906 RO-data=4018 RW-data=540 ZI-data=20700  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+compiling mainV1.c...
+..\mainV1.c(169): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(374): warning:  #177-D: variable "DMA_InitStructure" was declared but never referenced
+..\mainV1.c(693): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(698): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(707): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(978): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(988): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1085): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(793): warning:  #177-D: variable "petmp" was declared but never referenced
+..\mainV1.c(1188): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1197): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1239): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1371): warning:  #223-D: function "PS_Name_Save" declared implicitly
+..\mainV1.c(1554): warning:  #223-D: function "Area_Name_Save" declared implicitly
+..\mainV1.c(1754): warning:  #223-D: function "RDS_DevicesGroup_Mode_Update" declared implicitly
+..\mainV1.c(1894): warning:  #223-D: function "RDS_DevicesGroup_Mode_Save" declared implicitly
+..\mainV1.c(2121): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2132): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2157): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2168): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2657): warning:  #223-D: function "SYS_PARAMETER_Update" declared implicitly
+..\mainV1.c(2746): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2769): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2604): warning:  #177-D: variable "ledflash" was declared but never referenced
+..\mainV1.c(3433): warning:  #223-D: function "Draw_UpdateToLCD" declared implicitly
+..\mainV1.c(3309): warning: C3017W: status_save may be used before being set
+..\mainV1.c(3309): warning: C3017W: status_tmp may be used before being set
+linking...
+Program Size: Code=36906 RO-data=4018 RW-data=540 ZI-data=20700  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 27 Warning(s).
+Build target 'Target1'
+compiling mainV1.c...
+..\mainV1.c(169): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(374): warning:  #177-D: variable "DMA_InitStructure" was declared but never referenced
+..\mainV1.c(693): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(698): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(707): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(978): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(988): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1085): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(793): warning:  #177-D: variable "petmp" was declared but never referenced
+..\mainV1.c(1188): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1197): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1239): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1371): warning:  #223-D: function "PS_Name_Save" declared implicitly
+..\mainV1.c(1554): warning:  #223-D: function "Area_Name_Save" declared implicitly
+..\mainV1.c(1754): warning:  #223-D: function "RDS_DevicesGroup_Mode_Update" declared implicitly
+..\mainV1.c(1894): warning:  #223-D: function "RDS_DevicesGroup_Mode_Save" declared implicitly
+..\mainV1.c(2122): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2133): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2158): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2169): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2658): warning:  #223-D: function "SYS_PARAMETER_Update" declared implicitly
+..\mainV1.c(2747): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2770): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2605): warning:  #177-D: variable "ledflash" was declared but never referenced
+..\mainV1.c(3434): warning:  #223-D: function "Draw_UpdateToLCD" declared implicitly
+..\mainV1.c(3310): warning: C3017W: status_save may be used before being set
+..\mainV1.c(3310): warning: C3017W: status_tmp may be used before being set
+linking...
+Program Size: Code=36898 RO-data=4018 RW-data=540 ZI-data=20700  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 27 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36898 RO-data=4018 RW-data=540 ZI-data=20700  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36898 RO-data=4018 RW-data=540 ZI-data=20700  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+compiling mainV1.c...
+..\mainV1.c(169): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(374): warning:  #177-D: variable "DMA_InitStructure" was declared but never referenced
+..\mainV1.c(693): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(698): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(707): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(978): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(988): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1085): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(793): warning:  #177-D: variable "petmp" was declared but never referenced
+..\mainV1.c(1188): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1197): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1239): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1371): warning:  #223-D: function "PS_Name_Save" declared implicitly
+..\mainV1.c(1554): warning:  #223-D: function "Area_Name_Save" declared implicitly
+..\mainV1.c(1754): warning:  #223-D: function "RDS_DevicesGroup_Mode_Update" declared implicitly
+..\mainV1.c(1894): warning:  #223-D: function "RDS_DevicesGroup_Mode_Save" declared implicitly
+..\mainV1.c(2122): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2133): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2159): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2170): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2659): warning:  #223-D: function "SYS_PARAMETER_Update" declared implicitly
+..\mainV1.c(2748): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2771): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2606): warning:  #177-D: variable "ledflash" was declared but never referenced
+..\mainV1.c(3435): warning:  #223-D: function "Draw_UpdateToLCD" declared implicitly
+..\mainV1.c(3311): warning: C3017W: status_save may be used before being set
+..\mainV1.c(3311): warning: C3017W: status_tmp may be used before being set
+linking...
+Program Size: Code=36906 RO-data=4018 RW-data=540 ZI-data=20700  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 27 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36906 RO-data=4018 RW-data=540 ZI-data=20700  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+compiling mainV1.c...
+..\mainV1.c(169): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(374): warning:  #177-D: variable "DMA_InitStructure" was declared but never referenced
+..\mainV1.c(693): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(698): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(707): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(978): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(988): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1085): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(793): warning:  #177-D: variable "petmp" was declared but never referenced
+..\mainV1.c(1188): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1197): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1239): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1371): warning:  #223-D: function "PS_Name_Save" declared implicitly
+..\mainV1.c(1554): warning:  #223-D: function "Area_Name_Save" declared implicitly
+..\mainV1.c(1754): warning:  #223-D: function "RDS_DevicesGroup_Mode_Update" declared implicitly
+..\mainV1.c(1894): warning:  #223-D: function "RDS_DevicesGroup_Mode_Save" declared implicitly
+..\mainV1.c(2122): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2133): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2159): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2170): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2660): warning:  #223-D: function "SYS_PARAMETER_Update" declared implicitly
+..\mainV1.c(2749): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2772): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2607): warning:  #177-D: variable "ledflash" was declared but never referenced
+..\mainV1.c(3436): warning:  #223-D: function "Draw_UpdateToLCD" declared implicitly
+..\mainV1.c(3312): warning: C3017W: status_save may be used before being set
+..\mainV1.c(3312): warning: C3017W: status_tmp may be used before being set
+linking...
+Program Size: Code=36914 RO-data=4018 RW-data=540 ZI-data=20700  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 27 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36914 RO-data=4018 RW-data=540 ZI-data=20700  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36914 RO-data=4018 RW-data=540 ZI-data=20700  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
