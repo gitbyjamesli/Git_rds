@@ -1,0 +1,2570 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\Project.uvproj
+Project File Date:  04/23/2013
+
+<h2>Output:</h2>
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(672): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(673): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(672): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(673): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30854 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(675): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(676): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30874 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30874 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_dma.c...
+compiling RTX_Conf_CM.c...
+compiling mainV1.c...
+..\mainV1.c(338): warning:  #177-D: variable "DMA_InitStructure" was declared but never referenced
+..\mainV1.c(656): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(869): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1022): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1184): warning:  #223-D: function "PS_Name_Save" declared implicitly
+..\mainV1.c(1366): warning:  #223-D: function "Area_Name_Save" declared implicitly
+..\mainV1.c(1576): warning:  #223-D: function "RDS_DevicesGroup_Mode_Update" declared implicitly
+..\mainV1.c(1716): warning:  #223-D: function "RDS_DevicesGroup_Mode_Save" declared implicitly
+..\mainV1.c(2431): warning:  #223-D: function "PS_Name_Update" declared implicitly
+..\mainV1.c(2432): warning:  #223-D: function "Area_Name_Update" declared implicitly
+..\mainV1.c(2657): warning:  #223-D: function "Draw_UpdateToLCD" declared implicitly
+..\mainV1.c(2537): warning: C3017W: status_save may be used before being set
+..\mainV1.c(2537): warning: C3017W: status_tmp may be used before being set
+compiling LCD19264 DriverV20.c...
+compiling DrawPicture.c...
+compiling PT2314.c...
+compiling QN8027_Driver.c...
+compiling stm32f10x_it.c...
+compiling show.c...
+compiling anjian.c...
+compiling DAC5615.c...
+compiling 24c32.c...
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(675): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(676): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+compiling adc.c...
+..\li_code\adc.c(112): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\li_code\adc.c(119): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\li_code\adc.c(126): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\li_code\adc.c(133): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\li_code\adc.c(140): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\li_code\adc.c(13): warning:  #177-D: variable "ADCConvertedValueLocal" was declared but never referenced
+..\li_code\adc.c(13): warning:  #177-D: variable "Precent" was declared but never referenced
+linking...
+Program Size: Code=30874 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 26 Warning(s).
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(675): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(676): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30874 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(675): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(676): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30890 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30890 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(675): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(676): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30890 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30890 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(675): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(676): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30890 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30890 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(675): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(676): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30874 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(675): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(676): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30890 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30890 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(675): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(676): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30890 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30890 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30914 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30914 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30914 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30914 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30914 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30910 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30898 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30898 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30898 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30854 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30854 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=29590 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=29590 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+linking...
+Program Size: Code=29590 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+linking...
+Program Size: Code=29590 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=29542 RO-data=4002 RW-data=464 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=29542 RO-data=4002 RW-data=464 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(614): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(680): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(681): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(617): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(681): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(682): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_dma.c...
+compiling RTX_Conf_CM.c...
+compiling mainV1.c...
+..\mainV1.c(338): warning:  #177-D: variable "DMA_InitStructure" was declared but never referenced
+..\mainV1.c(656): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(869): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1022): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1184): warning:  #223-D: function "PS_Name_Save" declared implicitly
+..\mainV1.c(1366): warning:  #223-D: function "Area_Name_Save" declared implicitly
+..\mainV1.c(1576): warning:  #223-D: function "RDS_DevicesGroup_Mode_Update" declared implicitly
+..\mainV1.c(1716): warning:  #223-D: function "RDS_DevicesGroup_Mode_Save" declared implicitly
+..\mainV1.c(2431): warning:  #223-D: function "PS_Name_Update" declared implicitly
+..\mainV1.c(2432): warning:  #223-D: function "Area_Name_Update" declared implicitly
+..\mainV1.c(2657): warning:  #223-D: function "Draw_UpdateToLCD" declared implicitly
+..\mainV1.c(2537): warning: C3017W: status_save may be used before being set
+..\mainV1.c(2537): warning: C3017W: status_tmp may be used before being set
+compiling LCD19264 DriverV20.c...
+compiling DrawPicture.c...
+compiling PT2314.c...
+compiling QN8027_Driver.c...
+compiling stm32f10x_it.c...
+compiling show.c...
+compiling anjian.c...
+compiling DAC5615.c...
+compiling 24c32.c...
+compiling app.c...
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(617): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(681): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(682): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+compiling adc.c...
+..\li_code\adc.c(112): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\li_code\adc.c(119): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\li_code\adc.c(126): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\li_code\adc.c(133): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\li_code\adc.c(140): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\li_code\adc.c(13): warning:  #177-D: variable "ADCConvertedValueLocal" was declared but never referenced
+..\li_code\adc.c(13): warning:  #177-D: variable "Precent" was declared but never referenced
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 26 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30870 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(617): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(681): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(682): warning:  #177-D: variable "wait_result" was declared but never referenced
+..\li_code\app.c(161): warning: C3017W: z may be used before being set
+linking...
+Program Size: Code=30890 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(617): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(681): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(682): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30894 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30894 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30894 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(615): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(616): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(617): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(681): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(682): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30898 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30898 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(620): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(621): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(622): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(686): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(687): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30902 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30902 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(620): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(621): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(622): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(686): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(687): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30882 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30882 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(620): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(621): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(622): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(686): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(687): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30882 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30882 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(620): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(621): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(622): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(686): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(687): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30882 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30882 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(620): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(621): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(622): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(686): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(687): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30902 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30902 RO-data=4002 RW-data=472 ZI-data=19976  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling mainV1.c...
+..\mainV1.c(339): warning:  #177-D: variable "DMA_InitStructure" was declared but never referenced
+..\mainV1.c(657): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(870): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1023): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1185): warning:  #223-D: function "PS_Name_Save" declared implicitly
+..\mainV1.c(1367): warning:  #223-D: function "Area_Name_Save" declared implicitly
+..\mainV1.c(1577): warning:  #223-D: function "RDS_DevicesGroup_Mode_Update" declared implicitly
+..\mainV1.c(1717): warning:  #223-D: function "RDS_DevicesGroup_Mode_Save" declared implicitly
+..\mainV1.c(2432): warning:  #223-D: function "PS_Name_Update" declared implicitly
+..\mainV1.c(2433): warning:  #223-D: function "Area_Name_Update" declared implicitly
+..\mainV1.c(2658): warning:  #223-D: function "Draw_UpdateToLCD" declared implicitly
+..\mainV1.c(2538): warning: C3017W: status_save may be used before being set
+..\mainV1.c(2538): warning: C3017W: status_tmp may be used before being set
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=30914 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 13 Warning(s).
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(205): error:  #20: identifier "sendstate_Time_Count" is undefined
+..\li_code\app.c(624): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(625): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(626): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(690): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(691): warning:  #177-D: variable "wait_result" was declared but never referenced
+Target not created
+Build target 'Target1'
+compiling stm32f10x_it.c...
+compiling app.c...
+..\li_code\app.c(624): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(625): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(626): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(690): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(691): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30930 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(624): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(625): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(626): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(690): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(691): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30930 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30930 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(624): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(625): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(626): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(690): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(691): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30910 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30910 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(624): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(625): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(626): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(690): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(691): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(624): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(625): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(626): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(690): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(691): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(624): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(625): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(626): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(690): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(691): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(624): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(625): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(626): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(690): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(691): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(624): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(625): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(626): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(690): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(691): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.306V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(624): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(625): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(626): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(690): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(691): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30914 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Load "E:\\RDS资料\\项目程序(发射)\\发射机程序V2.7\\MDK_Project\\obj\\RDS_SendBoard.AXF" 
+Set JLink Project File to "E:\RDS资料\项目程序(发射)\发射机程序V2.7\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 805306163 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling app.c...
+..\li_code\app.c(624): warning:  #223-D: function "PT2314_Setup_Volume" declared implicitly
+..\li_code\app.c(625): warning:  #223-D: function "PT2314_Setup_Treble" declared implicitly
+..\li_code\app.c(626): warning:  #223-D: function "PT2314_Setup_Bass" declared implicitly
+..\li_code\app.c(690): warning:  #177-D: variable "sendwho" was declared but never referenced
+..\li_code\app.c(691): warning:  #177-D: variable "wait_result" was declared but never referenced
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_SendBoard.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=30922 RO-data=4002 RW-data=476 ZI-data=19972  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
