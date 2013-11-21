@@ -2759,7 +2759,7 @@ tab1:
 			    HighCURRENTWarning_Flag==RESET &&
 				HighSWRWarning_Flag==RESET&&
 		        HighPRWarning_Flag == RESET && 
-		        HighLPWarning_Flag == RESET 
+		        //HighLPWarning_Flag == RESET 
 				)
 			 {
 			  Pin_PTT_OPEN(); 
