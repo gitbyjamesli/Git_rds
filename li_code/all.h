@@ -34,6 +34,7 @@ typedef  struct STRUCT_PARAMETER
   	u8 	ui_psnum;         //1  //保存ps名称号
   	u8 	ui_areanum;       //1  //保存区域号
   	u8 	ui_pe_value;	   //1
+  	u8 	ui_rds_state;	   //1
     //总共14个数据	       
     }STRUCT_PARAMETER_DATA , *PT_STRUCT_PARAMETER_DATA;
 
@@ -105,4 +106,5 @@ extern FlagStatus           TX_status;
 extern u8 Reg0_save;
 extern u8 pc_area_group_terminal_set_flag;
 extern MYSTATE pc_gbset;
+extern uint8_t rds_state; 
 #endif

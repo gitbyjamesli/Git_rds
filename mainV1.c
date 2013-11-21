@@ -154,6 +154,8 @@ uint32_t           	 sendstate_Time_Count;
 uint32_t             Menu_Timeout_Count;    // 菜单操作超时计数变量  在TIM3中 -1 计数
 uint16_t             CursorBlink_Count;     // 光标翻转倒计时		 在TIM3中 -1 计数
 uint16_t             CollectUpdate_Interval;// 温度值更新间隔计数
+uint32_t             sound_ch_switch_Timeout_Count=0;    // 声音通道切换超时计数  在TIM3中 -1 计数
+
 FlagStatus           PTT_status;           // SET状态为发射中，RESET为关闭
 FlagStatus           TX_status=RESET;           // SET状态为发射中，RESET为关闭
 FlagStatus           setsys_para=RESET;           // SET状态为发射中，RESET为关闭
@@ -1548,7 +1550,7 @@ name_pos_update:
 			}
 			else
 			{
-				if(Name_pos==7)// 保存处 
+				if(Name_pos==7)// 保存处
 				{
 					memcpy(&Area_Name[num][0],name_string,7);
 					Area_Name_Save();
@@ -2140,6 +2142,8 @@ gb_update:
 					{
 						RDSMode_pos--;
 						rds_state=RDSMode_pos;
+						psys_data->ui_rds_state=rds_state;
+						SYS_PARAMETER_Save();
 						Show_RDS_SetMode(RDSMode_pos);
 					}
 					break;
@@ -2177,6 +2181,8 @@ gb_update:
 					{
 						RDSMode_pos++;
 						rds_state=RDSMode_pos;
+						psys_data->ui_rds_state=rds_state;
+						SYS_PARAMETER_Save();
 						Show_RDS_SetMode(RDSMode_pos);
 					}
 					break;
@@ -3309,7 +3315,10 @@ void AutoAdjustPower_task(void)
 __task
 void AutoChoiceAudio_task(void)
 {
-	uint8_t status_tmp,status_save;
+	uint8_t status_tmp,
+	        status_new,
+	        status_save;
+	        
 
 	while(1)
 	{
@@ -3333,24 +3342,59 @@ void AutoChoiceAudio_task(void)
 
 		if(status_save!=status_tmp)
 		 {
-			switch (status_tmp)
-			{
-				case 1:
-				  PT2314_Setup_CVD(2,GAIN_OFF);	//MP3通道
-					break;
-				case 2:
-				  PT2314_Setup_CVD(4,GAIN_OFF);	//AUX通道
-					break;
-				case 3:
-				  PT2314_Setup_CVD(1,GAIN_OFF);	//DTU通道
-					break;
-				case 4:
-				  PT2314_Setup_CVD(3,GAIN_OFF);	//中转通道
-					break;
-				default:
-					break;
-			}
-		   status_save=status_tmp;
+			  if(status_save<status_tmp)//从优先级低的切换到高,立即切换
+			   {
+			   	switch (status_tmp)
+				{
+					case 1:
+					  PT2314_Setup_CVD(2,GAIN_OFF);	//MP3通道
+						break;
+					case 2:
+					  PT2314_Setup_CVD(4,GAIN_OFF);	//AUX通道
+						break;
+					case 3:
+					  PT2314_Setup_CVD(1,GAIN_OFF);	//DTU通道
+						break;
+					case 4:
+					  PT2314_Setup_CVD(3,GAIN_OFF);	//中转通道
+						break;
+					default:
+						break;
+			      } 
+				  status_save=status_tmp;
+				  status_new=0;
+			     }
+	
+			  if(status_save>status_tmp)//从优先级高的切换到低,延时5S再切换
+			   {
+			    if(status_new!=status_tmp)
+				{
+			      status_new=status_tmp;
+			      sound_ch_switch_Timeout_Count=3000;//30S
+				  }
+			    if(sound_ch_switch_Timeout_Count==0)
+				 {
+				   	switch (status_tmp)
+					{
+						case 1:
+						  PT2314_Setup_CVD(2,GAIN_OFF);	//MP3通道
+							break;
+						case 2:
+						  PT2314_Setup_CVD(4,GAIN_OFF);	//AUX通道
+							break;
+						case 3:
+						  PT2314_Setup_CVD(1,GAIN_OFF);	//DTU通道
+							break;
+						case 4:
+						  PT2314_Setup_CVD(3,GAIN_OFF);	//中转通道
+							break;
+						default:
+							break;
+				      } 
+			      status_save=status_tmp;
+				  }
+			   }
+
 		  }
 
 		os_dly_wait(5);

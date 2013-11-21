@@ -116,7 +116,7 @@ union
 
 union 
     {
-      u8                     uchar_part[14];
+      u8                     uchar_part[15];
 	  STRUCT_PARAMETER_DATA  SYS_PARAMETER;
     }UNION_DATA;//*PT_UNION_DATA;
 
@@ -936,7 +936,7 @@ void SYS_PARAMETER_Update(void)
 {
     u8 i=0;
 
-	EEPROM_ReadBytes(0x0200,&UNION_DATA.uchar_part[0],14);
+	EEPROM_ReadBytes(0x0200,&UNION_DATA.uchar_part[0],15);
 
 	FM_value=UNION_DATA.SYS_PARAMETER.ui_FM_value;
     if(FM_value<76000||FM_value>108000)
@@ -976,11 +976,16 @@ void SYS_PARAMETER_Update(void)
 	area_num=UNION_DATA.SYS_PARAMETER.ui_areanum; //读取区域号
 	if(area_num>19)
 	  area_num=19;
+
+	rds_state=UNION_DATA.SYS_PARAMETER.ui_rds_state; //读取区域号
+	if(rds_state>2)
+	  rds_state=2;
+
 }
 
 void SYS_PARAMETER_Save(void)
 {
-	EEPROM_WriteBytes(0x0200,&UNION_DATA.uchar_part[0],14);
+	EEPROM_WriteBytes(0x0200,&UNION_DATA.uchar_part[0],15);
 }
 
 void PS_Name_Update(void)

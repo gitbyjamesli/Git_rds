@@ -514,10 +514,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>18</ColumnNumber>
+      <ColumnNumber>34</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1750</TopLine>
-      <CurrentLine>1757</CurrentLine>
+      <TopLine>3199</TopLine>
+      <CurrentLine>3199</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\mainV1.c</PathWithFileName>
       <FilenameWithoutPath>mainV1.c</FilenameWithoutPath>
@@ -584,10 +584,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>33</ColumnNumber>
+      <ColumnNumber>46</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>287</TopLine>
-      <CurrentLine>287</CurrentLine>
+      <TopLine>358</TopLine>
+      <CurrentLine>372</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\stm32f10x_it.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_it.c</FilenameWithoutPath>
@@ -661,10 +661,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>14</ColumnNumber>
+      <ColumnNumber>32</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1066</TopLine>
-      <CurrentLine>1071</CurrentLine>
+      <TopLine>986</TopLine>
+      <CurrentLine>995</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\li_code\app.c</PathWithFileName>
       <FilenameWithoutPath>app.c</FilenameWithoutPath>
@@ -677,8 +677,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>6</TopLine>
-      <CurrentLine>13</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\li_code\adc.c</PathWithFileName>
       <FilenameWithoutPath>adc.c</FilenameWithoutPath>
@@ -693,7 +693,7 @@
   </Group>
 
   <AlienFiles>
-    <PathWithFilename>E:\RDS资料\项目程序(发射)\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</PathWithFilename>
+    <PathWithFilename>I:\RDS资料\项目程序(发射)\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</PathWithFilename>
     <TopLine>104</TopLine>
     <CurrentLine>104</CurrentLine>
     <Constant>0</Constant>
@@ -719,9 +719,9 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>E:\RDS资料\项目程序(发射)\发射机程序_Git\li_code\all.h</PathWithFilename>
-    <TopLine>87</TopLine>
-    <CurrentLine>98</CurrentLine>
+    <PathWithFilename>I:\RDS资料\项目程序(发射)\发射机程序_Git\li_code\all.h</PathWithFilename>
+    <TopLine>88</TopLine>
+    <CurrentLine>108</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -745,9 +745,9 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>E:\RDS资料\项目程序(发射)\发射机程序_Git\i2c.h</PathWithFilename>
-    <TopLine>90</TopLine>
-    <CurrentLine>90</CurrentLine>
+    <PathWithFilename>I:\RDS资料\项目程序(发射)\发射机程序_Git\i2c.h</PathWithFilename>
+    <TopLine>1</TopLine>
+    <CurrentLine>1</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -797,7 +797,7 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>E:\RDS资料\项目程序(发射)\发射机程序_Git\show.h</PathWithFilename>
+    <PathWithFilename>I:\RDS资料\项目程序(发射)\发射机程序_Git\show.h</PathWithFilename>
     <TopLine>8</TopLine>
     <CurrentLine>22</CurrentLine>
     <Constant>0</Constant>
@@ -823,7 +823,7 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>E:\RDS资料\项目程序(发射)\发射机程序_Git\anjian.h</PathWithFilename>
+    <PathWithFilename>I:\RDS资料\项目程序(发射)\发射机程序_Git\anjian.h</PathWithFilename>
     <TopLine>13</TopLine>
     <CurrentLine>21</CurrentLine>
     <Constant>0</Constant>
@@ -863,21 +863,15 @@
         </Doc>
         <Doc>
           <Name>..\stm32f10x_it.c</Name>
-          <ColumnNumber>33</ColumnNumber>
-          <TopLine>287</TopLine>
-          <CurrentLine>287</CurrentLine>
+          <ColumnNumber>46</ColumnNumber>
+          <TopLine>358</TopLine>
+          <CurrentLine>372</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\mainV1.c</Name>
-          <ColumnNumber>55</ColumnNumber>
-          <TopLine>1546</TopLine>
-          <CurrentLine>1551</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>..\li_code\adc.c</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>6</TopLine>
-          <CurrentLine>13</CurrentLine>
+          <ColumnNumber>34</ColumnNumber>
+          <TopLine>3199</TopLine>
+          <CurrentLine>3199</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\show.h</Name>
@@ -905,21 +899,21 @@
         </Doc>
         <Doc>
           <Name>..\li_code\app.c</Name>
-          <ColumnNumber>23</ColumnNumber>
-          <TopLine>1046</TopLine>
-          <CurrentLine>1053</CurrentLine>
+          <ColumnNumber>32</ColumnNumber>
+          <TopLine>986</TopLine>
+          <CurrentLine>995</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\i2c.h</Name>
-          <ColumnNumber>5</ColumnNumber>
-          <TopLine>90</TopLine>
-          <CurrentLine>90</CurrentLine>
+          <ColumnNumber>27</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>1</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\li_code\all.h</Name>
-          <ColumnNumber>37</ColumnNumber>
-          <TopLine>87</TopLine>
-          <CurrentLine>98</CurrentLine>
+          <ColumnNumber>27</ColumnNumber>
+          <TopLine>88</TopLine>
+          <CurrentLine>108</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\QN8027_Driver.c</Name>

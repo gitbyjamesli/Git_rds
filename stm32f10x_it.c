@@ -348,6 +348,7 @@ void RTC_IRQHandler(void)
 		 pc_area_group_terminal_set_flag=0;
 		 pc_gbset=FALSE;
 		 }
+
 	}
 	if(RTC_GetITStatus(RTC_IT_ALR) != RESET)// 发生闹钟中断
 	{
@@ -368,6 +369,8 @@ void TIM3_IRQHandler(void)// TIM3的中断服务函数       10ms溢出
 	extern uint32_t Menu_Timeout_Count;// 菜单操作超时计数变量
 	extern uint16_t CursorBlink_Count;// 光标翻转倒计时
 	extern uint16_t CollectUpdate_Interval;
+	extern uint32_t sound_ch_switch_Timeout_Count;// 
+
 	TIM_ClearITPendingBit(TIM3, TIM_IT_Update);// 清 标志
 
 	sendstate_Time_Count++;
@@ -383,6 +386,10 @@ void TIM3_IRQHandler(void)// TIM3的中断服务函数       10ms溢出
 	{
 		CollectUpdate_Interval--;
 	}
+
+     if(sound_ch_switch_Timeout_Count>0)
+	  sound_ch_switch_Timeout_Count--;
+
 	KEY_UP_delayct();// 长按持续计数
 	KEY_DOWN_delayct();
 	KEY_LEFT_delayct();
