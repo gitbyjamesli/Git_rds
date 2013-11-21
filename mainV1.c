@@ -2758,7 +2758,7 @@ tab1:
 		     if(HighTempWarning_Flag==RESET	&&
 			    HighCURRENTWarning_Flag==RESET &&
 				HighSWRWarning_Flag==RESET&&
-		        HighPRWarning_Flag == RESET && 
+		        //HighPRWarning_Flag == RESET && 
 		        //HighLPWarning_Flag == RESET 
 				)
 			 {
