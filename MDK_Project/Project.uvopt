@@ -598,10 +598,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>5</ColumnNumber>
+      <ColumnNumber>26</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>133</TopLine>
-      <CurrentLine>140</CurrentLine>
+      <TopLine>237</TopLine>
+      <CurrentLine>237</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\show.c</PathWithFileName>
       <FilenameWithoutPath>show.c</FilenameWithoutPath>
@@ -720,7 +720,7 @@
 
   <AlienFiles>
     <PathWithFilename>I:\RDS资料\项目程序(发射)\发射机程序_Git\li_code\all.h</PathWithFilename>
-    <TopLine>88</TopLine>
+    <TopLine>94</TopLine>
     <CurrentLine>108</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
@@ -853,7 +853,7 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>2</ActiveTab>
+      <ActiveTab>4</ActiveTab>
       <Documents>
         <Doc>
           <Name>..\anjian.h</Name>
@@ -881,9 +881,9 @@
         </Doc>
         <Doc>
           <Name>..\show.c</Name>
-          <ColumnNumber>5</ColumnNumber>
-          <TopLine>133</TopLine>
-          <CurrentLine>140</CurrentLine>
+          <ColumnNumber>26</ColumnNumber>
+          <TopLine>237</TopLine>
+          <CurrentLine>237</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\anjian.c</Name>
@@ -912,7 +912,7 @@
         <Doc>
           <Name>..\li_code\all.h</Name>
           <ColumnNumber>27</ColumnNumber>
-          <TopLine>88</TopLine>
+          <TopLine>94</TopLine>
           <CurrentLine>108</CurrentLine>
         </Doc>
         <Doc>

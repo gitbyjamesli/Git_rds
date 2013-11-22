@@ -246,30 +246,34 @@ void Show_VOLH(u8 val)// 显示低音值   -7 ~ 7
 	u8 tp;
 	if(val<7)
 	{
-		str[2]='-';
+		str[2]=' ';
 		tp = (7-val)*2;
 	}
 	else if(val==7)
 	{
-		str[2]='+';
+		str[2]=' ';
 		tp = (7-val)*2;
 	}
 	else 
 	{
-		str[2]='+';
+		str[2]=' ';
 		tp = (16-val)*2;//(val-7)*2;
 	}
+
+    if(val>7)
+         tp = 23-val;// dB值
+	else tp=val;
 
 	str[3] += tp/10;
 	str[4] += tp%10;
 	Draw_String6X8(1,47,str);
 
-	Draw_String6X8(43+5-2   ,47,"-");
+	//Draw_String6X8(43+5-2   ,47,"-");
 	Draw_Rect(49+5,47,      49+45+5,47+6,1);
 	Draw_Line(50+5,49,      50+len+5,49,1);Draw_Line(50+len+5,49,  50+42+5,49,0);
 	Draw_Line(50+5,50,      50+len+5,50,1);Draw_Line(50+len+5,50,  50+42+5,50,0);
 	Draw_Line(50+5,51,      50+len+5,51,1);Draw_Line(50+len+5,51,  50+42+5,51,0);
-	Draw_String6X8(49+51,47,"+");
+	//Draw_String6X8(49+51,47,"+");
 }
 void Show_VOLB(u8 val)// 显示高音值   -7 ~ 7
 {
@@ -278,29 +282,34 @@ void Show_VOLB(u8 val)// 显示高音值   -7 ~ 7
 	u8 tp;
 	if(val<7)
 	{
-		str[2]='-';
+		str[2]=' ';
 		tp = (7-val)*2;
 	}
 	else if(val==7)
 	{
-		str[2]='+';
+		str[2]=' ';
 		tp = (7-val)*2;
 	}
 	else
 	{
-		str[2]='+';
+		str[2]=' ';
 		tp = (16-val)*2;//(val-7)*2;
 	}
+
+    if(val>7)
+         tp = 23-val;// dB值
+	else tp=val;
+
 	str[3] += tp/10;
 	str[4] += tp%10;
 	Draw_String6X8(1,55,str);
 
-	Draw_String6X8(43-2+5   ,55,"-");
+	//Draw_String6X8(43-2+5   ,55,"-");
 	Draw_Rect(49+5,55,      49+45+5,55+6,1);
 	Draw_Line(50+5,57,      50+len+5,57,1);Draw_Line(50+len+5,57,  50+42+5,57,0);
 	Draw_Line(50+5,58,      50+len+5,58,1);Draw_Line(50+len+5,58,  50+42+5,58,0);
 	Draw_Line(50+5,59,      50+len+5,59,1);Draw_Line(50+len+5,59,  50+42+5,59,0);
-	Draw_String6X8(49+46+5,55,"+");
+	//Draw_String6X8(49+46+5,55,"+");
 }
 void Show_Volume(u8 val)// 显示总音量值   0 ~ 32
 {
