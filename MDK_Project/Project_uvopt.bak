@@ -514,10 +514,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>27</ColumnNumber>
+      <ColumnNumber>24</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>391</TopLine>
-      <CurrentLine>391</CurrentLine>
+      <TopLine>2711</TopLine>
+      <CurrentLine>2711</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\mainV1.c</PathWithFileName>
       <FilenameWithoutPath>mainV1.c</FilenameWithoutPath>
@@ -542,10 +542,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>11</ColumnNumber>
+      <ColumnNumber>5</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>188</TopLine>
+      <CurrentLine>206</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\DrawPicture.c</PathWithFileName>
       <FilenameWithoutPath>DrawPicture.c</FilenameWithoutPath>
@@ -598,10 +598,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>31</ColumnNumber>
+      <ColumnNumber>36</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>369</TopLine>
-      <CurrentLine>369</CurrentLine>
+      <TopLine>337</TopLine>
+      <CurrentLine>337</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\show.c</PathWithFileName>
       <FilenameWithoutPath>show.c</FilenameWithoutPath>
@@ -661,10 +661,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>30</ColumnNumber>
+      <ColumnNumber>8</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>821</TopLine>
-      <CurrentLine>821</CurrentLine>
+      <TopLine>1164</TopLine>
+      <CurrentLine>1171</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\li_code\app.c</PathWithFileName>
       <FilenameWithoutPath>app.c</FilenameWithoutPath>
@@ -853,8 +853,14 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>7</ActiveTab>
+      <ActiveTab>8</ActiveTab>
       <Documents>
+        <Doc>
+          <Name>..\DrawPicture.c</Name>
+          <ColumnNumber>5</ColumnNumber>
+          <TopLine>188</TopLine>
+          <CurrentLine>206</CurrentLine>
+        </Doc>
         <Doc>
           <Name>..\anjian.h</Name>
           <ColumnNumber>19</ColumnNumber>
@@ -869,9 +875,9 @@
         </Doc>
         <Doc>
           <Name>..\mainV1.c</Name>
-          <ColumnNumber>27</ColumnNumber>
-          <TopLine>391</TopLine>
-          <CurrentLine>391</CurrentLine>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>2669</TopLine>
+          <CurrentLine>2676</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\show.h</Name>
@@ -881,9 +887,9 @@
         </Doc>
         <Doc>
           <Name>..\show.c</Name>
-          <ColumnNumber>31</ColumnNumber>
-          <TopLine>369</TopLine>
-          <CurrentLine>369</CurrentLine>
+          <ColumnNumber>36</ColumnNumber>
+          <TopLine>337</TopLine>
+          <CurrentLine>337</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\anjian.c</Name>
@@ -899,9 +905,9 @@
         </Doc>
         <Doc>
           <Name>..\li_code\app.c</Name>
-          <ColumnNumber>30</ColumnNumber>
-          <TopLine>821</TopLine>
-          <CurrentLine>821</CurrentLine>
+          <ColumnNumber>9</ColumnNumber>
+          <TopLine>217</TopLine>
+          <CurrentLine>231</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\i2c.h</Name>

@@ -342,9 +342,25 @@ void RDSsend_NULL(void)
     toggle();
 }
 
+MYSTATE Check_QN8027_tx(void)
+{
+    static u8 CurValue,PreValue,tmp;
+	tmp=QN8027_ReadReg(0x07);
+	CurValue=tmp&0x08;	// 检查bit3 是否改变
+	if(CurValue!=PreValue) // 接收到新的数据
+	{
+	 PreValue=CurValue;
+	 return 1;	
+	 }	  
+	else return 0;
+}
+
 void RDSsend_area_allset(u8 AGT_flag)
 {	 
     u8 i,tmp;
+
+    if(Check_QN8027_tx()==FALSE)
+	 return;
 
 	switch (AGT_flag)
 	{
@@ -461,18 +477,6 @@ void PCRDS_set(u8 AGT_flag)	  //上位机设置 RDS
 }
 
 
-MYSTATE Check_QN8027_tx(void)
-{
-    static u8 CurValue,PreValue,tmp;
-	tmp=QN8027_ReadReg(0x07);
-	CurValue=tmp&0x08;	// 检查bit3 是否改变
-	if(CurValue!=PreValue) // 接收到新的数据
-	{
-	 PreValue=CurValue;
-	 return 1;	
-	 }	  
-	else return 0;
-}
 
 void RDSsend_pty(void)
 {	 

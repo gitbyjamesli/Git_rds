@@ -2669,6 +2669,14 @@ PT2314init:
 	PT2314_Setup_Volume(Volume_value);
 	PT2314_Setup_Treble(Treble_value);
 	PT2314_Setup_Bass(Bass_value);
+	/*
+	if(rds_state==0)//全关
+      area_group_terminal_set_flag=5;
+	if(rds_state==1)//全开
+      area_group_terminal_set_flag=4;
+	if(rds_state==2)//设置
+      area_group_terminal_set_flag=0;
+	 */
 	//while(1);
 // 2.创建几个任务
 	os_tsk_create(RDS_task,1);                         // 建立小李的RDS任务
@@ -2700,6 +2708,7 @@ main_window_entry:
 	Show_FSRF_Logo();// 显示FS-RF图标
 	Show_Picture(181,1,FH_RD8X8,8,8);
 	Show_Picture(181,10,FH_PC8X8,8,8);
+
 
 	Show_RDS(rds_state);// 显示RDS状态
 	Show_TX(PTT_status);// 显示发射机状态
