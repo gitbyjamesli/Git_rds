@@ -514,10 +514,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>34</ColumnNumber>
+      <ColumnNumber>27</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>3199</TopLine>
-      <CurrentLine>3199</CurrentLine>
+      <TopLine>391</TopLine>
+      <CurrentLine>391</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\mainV1.c</PathWithFileName>
       <FilenameWithoutPath>mainV1.c</FilenameWithoutPath>
@@ -584,10 +584,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>46</ColumnNumber>
+      <ColumnNumber>17</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>358</TopLine>
-      <CurrentLine>372</CurrentLine>
+      <TopLine>201</TopLine>
+      <CurrentLine>214</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\stm32f10x_it.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_it.c</FilenameWithoutPath>
@@ -598,10 +598,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>5</ColumnNumber>
+      <ColumnNumber>31</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>133</TopLine>
-      <CurrentLine>140</CurrentLine>
+      <TopLine>369</TopLine>
+      <CurrentLine>369</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\show.c</PathWithFileName>
       <FilenameWithoutPath>show.c</FilenameWithoutPath>
@@ -661,10 +661,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>32</ColumnNumber>
+      <ColumnNumber>30</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>986</TopLine>
-      <CurrentLine>995</CurrentLine>
+      <TopLine>821</TopLine>
+      <CurrentLine>821</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\li_code\app.c</PathWithFileName>
       <FilenameWithoutPath>app.c</FilenameWithoutPath>
@@ -720,7 +720,7 @@
 
   <AlienFiles>
     <PathWithFilename>I:\RDS资料\项目程序(发射)\发射机程序_Git\li_code\all.h</PathWithFilename>
-    <TopLine>88</TopLine>
+    <TopLine>94</TopLine>
     <CurrentLine>108</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
@@ -853,7 +853,7 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>2</ActiveTab>
+      <ActiveTab>7</ActiveTab>
       <Documents>
         <Doc>
           <Name>..\anjian.h</Name>
@@ -863,15 +863,15 @@
         </Doc>
         <Doc>
           <Name>..\stm32f10x_it.c</Name>
-          <ColumnNumber>46</ColumnNumber>
-          <TopLine>358</TopLine>
-          <CurrentLine>372</CurrentLine>
+          <ColumnNumber>17</ColumnNumber>
+          <TopLine>201</TopLine>
+          <CurrentLine>214</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\mainV1.c</Name>
-          <ColumnNumber>34</ColumnNumber>
-          <TopLine>3199</TopLine>
-          <CurrentLine>3199</CurrentLine>
+          <ColumnNumber>27</ColumnNumber>
+          <TopLine>391</TopLine>
+          <CurrentLine>391</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\show.h</Name>
@@ -881,9 +881,9 @@
         </Doc>
         <Doc>
           <Name>..\show.c</Name>
-          <ColumnNumber>5</ColumnNumber>
-          <TopLine>133</TopLine>
-          <CurrentLine>140</CurrentLine>
+          <ColumnNumber>31</ColumnNumber>
+          <TopLine>369</TopLine>
+          <CurrentLine>369</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\anjian.c</Name>
@@ -899,9 +899,9 @@
         </Doc>
         <Doc>
           <Name>..\li_code\app.c</Name>
-          <ColumnNumber>32</ColumnNumber>
-          <TopLine>986</TopLine>
-          <CurrentLine>995</CurrentLine>
+          <ColumnNumber>30</ColumnNumber>
+          <TopLine>821</TopLine>
+          <CurrentLine>821</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\i2c.h</Name>
@@ -912,7 +912,7 @@
         <Doc>
           <Name>..\li_code\all.h</Name>
           <ColumnNumber>27</ColumnNumber>
-          <TopLine>88</TopLine>
+          <TopLine>94</TopLine>
           <CurrentLine>108</CurrentLine>
         </Doc>
         <Doc>

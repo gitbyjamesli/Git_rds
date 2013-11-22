@@ -71,6 +71,11 @@ unsigned char const M_SPK[11] = {0x00,0x00,0x04,0x0C,0x74,0x44,0x74,0x0C,0x04,0x
 unsigned char const S_SPK[11] = {0x00,0x00,0x00,0x08,0x18,0x68,0x18,0x08,0x00,0x00,0x00};/*"D:\My Documents\喇叭图\小喇叭.BMP",0*/
 unsigned char const X_SPK[11] = {0x00,0x00,0x82,0x44,0x28,0x10,0x28,0x44,0x82,0x00,0x00};/*"D:\My Documents\喇叭图\关喇叭.BMP",0*/
 unsigned char const Alarm_Pic16X16[] = {0x00,0x0F,0x80,0x88,0x40,0x48,0x20,0x28,0x1E,0x08,0x02,0x08,0x02,0xE8,0x02,0x08,0x1E,0x08,0x20,0x28,0x40,0x48,0x80,0x88,0x00,0x0F};/*报警标志*/
+
+unsigned char const  Tiaoyin[]={0x00,0x01,0x02,0x03,
+                      0x04,0x05,0x06,0x07,
+                      0x0f,0x0e,0x0d,0x0c,
+                      0x0b,0x0a,0x09,0x08};
 /**************************************************************************
  此函数为一图片显示函数
  输入参数说明：
@@ -264,15 +269,23 @@ void Show_VOLH(u8 val)// 显示低音值   -7 ~ 7
          tp = 23-val;// dB值
 	else tp=val;
 
+    len=tp*3;//Tiaoyin[tp]*3;
+
 	str[3] += tp/10;
 	str[4] += tp%10;
 	Draw_String6X8(1,47,str);
 
 	//Draw_String6X8(43+5-2   ,47,"-");
-	Draw_Rect(49+5,47,      49+45+5,47+6,1);
-	Draw_Line(50+5,49,      50+len+5,49,1);Draw_Line(50+len+5,49,  50+42+5,49,0);
-	Draw_Line(50+5,50,      50+len+5,50,1);Draw_Line(50+len+5,50,  50+42+5,50,0);
-	Draw_Line(50+5,51,      50+len+5,51,1);Draw_Line(50+len+5,51,  50+42+5,51,0);
+	Draw_Rect(49+5,47,      99+2,47+6,1);
+
+	Draw_Line(50+5,49,      50+len+5, 49,1);
+	Draw_Line(50+len+5,49,  97+3,49,0);
+
+	Draw_Line(50+5,50,      50+len+5,50,1);
+	Draw_Line(50+len+5,50,  97+3,50,0);
+
+	Draw_Line(50+5,51,      50+len+5,51,1);
+	Draw_Line(50+len+5,51,  97+3,51,0);
 	//Draw_String6X8(49+51,47,"+");
 }
 void Show_VOLB(u8 val)// 显示高音值   -7 ~ 7
@@ -300,15 +313,23 @@ void Show_VOLB(u8 val)// 显示高音值   -7 ~ 7
          tp = 23-val;// dB值
 	else tp=val;
 
+	len=tp*3;
+
 	str[3] += tp/10;
 	str[4] += tp%10;
 	Draw_String6X8(1,55,str);
 
 	//Draw_String6X8(43-2+5   ,55,"-");
-	Draw_Rect(49+5,55,      49+45+5,55+6,1);
-	Draw_Line(50+5,57,      50+len+5,57,1);Draw_Line(50+len+5,57,  50+42+5,57,0);
-	Draw_Line(50+5,58,      50+len+5,58,1);Draw_Line(50+len+5,58,  50+42+5,58,0);
-	Draw_Line(50+5,59,      50+len+5,59,1);Draw_Line(50+len+5,59,  50+42+5,59,0);
+	Draw_Rect(49+5,55,      99+2,55+6,1);
+
+	Draw_Line(50+5,57,      50+len+5,57,1);
+	Draw_Line(50+len+5,57,  100,57,0);
+
+	Draw_Line(50+5,58,      50+len+5,58,1);
+	Draw_Line(50+len+5,58,  100,58,0);
+
+	Draw_Line(50+5,59,      50+len+5,59,1);
+	Draw_Line(50+len+5,59,  100,59,0);
 	//Draw_String6X8(49+46+5,55,"+");
 }
 void Show_Volume(u8 val)// 显示总音量值   0 ~ 32

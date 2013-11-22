@@ -3,29 +3,616 @@
 <pre>
 <h1>礦ision Build Log</h1>
 <h2>Project:</h2>
-E:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\Project.uvproj
+I:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\Project.uvproj
 Project File Date:  10/11/2013
 
 <h2>Output:</h2>
 Build target 'Target1'
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+compiling mainV1.c...
+..\mainV1.c(171): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(376): warning:  #177-D: variable "DMA_InitStructure" was declared but never referenced
+..\mainV1.c(695): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(700): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(709): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(980): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(990): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1087): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(795): warning:  #177-D: variable "petmp" was declared but never referenced
+..\mainV1.c(1190): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1199): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1241): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1373): warning:  #223-D: function "PS_Name_Save" declared implicitly
+..\mainV1.c(1556): warning:  #223-D: function "Area_Name_Save" declared implicitly
+..\mainV1.c(1756): warning:  #223-D: function "RDS_DevicesGroup_Mode_Update" declared implicitly
+..\mainV1.c(1896): warning:  #223-D: function "RDS_DevicesGroup_Mode_Save" declared implicitly
+..\mainV1.c(2124): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2135): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2146): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2163): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2174): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2185): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2666): warning:  #223-D: function "SYS_PARAMETER_Update" declared implicitly
+..\mainV1.c(2755): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2778): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2613): warning:  #177-D: variable "ledflash" was declared but never referenced
+..\mainV1.c(3452): warning:  #223-D: function "Draw_UpdateToLCD" declared implicitly
+..\mainV1.c(3292): warning: C3017W: status_save may be used before being set
+..\mainV1.c(3291): warning: C3017W: status_new may be used before being set
+..\mainV1.c(3290): warning: C3017W: status_tmp may be used before being set
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 30 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\RDS资料\\项目程序(发射)\\发射机程序_Git\\MDK_Project\\obj\\RDS_发射板.AXF" 
+Set JLink Project File to "I:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.325V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
 compiling show.c...
 linking...
-Program Size: Code=36982 RO-data=4018 RW-data=544 ZI-data=20704  
+Program Size: Code=36966 RO-data=4018 RW-data=544 ZI-data=20704  
 FromELF: creating hex file...
 ".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\RDS资料\\项目程序(发射)\\发射机程序_Git\\MDK_Project\\obj\\RDS_发射板.AXF" 
+Set JLink Project File to "I:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\JLinkSettings.ini"
+Load "I:\\RDS资料\\项目程序(发射)\\发射机程序_Git\\MDK_Project\\obj\\RDS_发射板.AXF" 
+Set JLink Project File to "I:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.332V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
 Build target 'Target1'
 linking...
-Program Size: Code=36982 RO-data=4018 RW-data=544 ZI-data=20704  
+Program Size: Code=36966 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\RDS资料\\项目程序(发射)\\发射机程序_Git\\MDK_Project\\obj\\RDS_发射板.AXF" 
+Set JLink Project File to "I:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.332V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling mainV1.c...
+..\mainV1.c(172): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(377): warning:  #177-D: variable "DMA_InitStructure" was declared but never referenced
+..\mainV1.c(696): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(701): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(710): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(981): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(991): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1088): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(796): warning:  #177-D: variable "petmp" was declared but never referenced
+..\mainV1.c(1191): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1200): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1242): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(1374): warning:  #223-D: function "PS_Name_Save" declared implicitly
+..\mainV1.c(1557): warning:  #223-D: function "Area_Name_Save" declared implicitly
+..\mainV1.c(1757): warning:  #223-D: function "RDS_DevicesGroup_Mode_Update" declared implicitly
+..\mainV1.c(1897): warning:  #223-D: function "RDS_DevicesGroup_Mode_Save" declared implicitly
+..\mainV1.c(2125): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2136): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2147): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2164): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2175): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2186): warning:  #223-D: function "SYS_PARAMETER_Save" declared implicitly
+..\mainV1.c(2667): warning:  #223-D: function "SYS_PARAMETER_Update" declared implicitly
+..\mainV1.c(2756): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2779): warning:  #188-D: enumerated type mixed with another type
+..\mainV1.c(2614): warning:  #177-D: variable "ledflash" was declared but never referenced
+..\mainV1.c(3453): warning:  #223-D: function "Draw_UpdateToLCD" declared implicitly
+..\mainV1.c(3293): warning: C3017W: status_save may be used before being set
+..\mainV1.c(3292): warning: C3017W: status_new may be used before being set
+..\mainV1.c(3291): warning: C3017W: status_tmp may be used before being set
+compiling show.c...
+linking...
+Program Size: Code=36966 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 30 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36966 RO-data=4018 RW-data=544 ZI-data=20704  
 FromELF: creating hex file...
 ".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
 Build target 'Target1'
 compiling show.c...
 linking...
-Program Size: Code=36942 RO-data=4018 RW-data=544 ZI-data=20704  
+Program Size: Code=36954 RO-data=4034 RW-data=544 ZI-data=20704  
 FromELF: creating hex file...
 ".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
 Build target 'Target1'
 linking...
-Program Size: Code=36942 RO-data=4018 RW-data=544 ZI-data=20704  
+Program Size: Code=36954 RO-data=4034 RW-data=544 ZI-data=20704  
 FromELF: creating hex file...
 ".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\RDS资料\\项目程序(发射)\\发射机程序_Git\\MDK_Project\\obj\\RDS_发射板.AXF" 
+Set JLink Project File to "I:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.332V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling show.c...
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\RDS资料\\项目程序(发射)\\发射机程序_Git\\MDK_Project\\obj\\RDS_发射板.AXF" 
+Set JLink Project File to "I:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.332V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling show.c...
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\RDS资料\\项目程序(发射)\\发射机程序_Git\\MDK_Project\\obj\\RDS_发射板.AXF" 
+Set JLink Project File to "I:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.332V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling show.c...
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\RDS资料\\项目程序(发射)\\发射机程序_Git\\MDK_Project\\obj\\RDS_发射板.AXF" 
+Set JLink Project File to "I:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.332V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling show.c...
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\RDS资料\\项目程序(发射)\\发射机程序_Git\\MDK_Project\\obj\\RDS_发射板.AXF" 
+Set JLink Project File to "I:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.332V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target1'
+compiling show.c...
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target1'
+linking...
+Program Size: Code=36946 RO-data=4018 RW-data=544 ZI-data=20704  
+FromELF: creating hex file...
+".\obj\RDS_发射板.axf" - 0 Error(s), 0 Warning(s).
+Load "I:\\RDS资料\\项目程序(发射)\\发射机程序_Git\\MDK_Project\\obj\\RDS_发射板.AXF" 
+Set JLink Project File to "I:\RDS资料\项目程序(发射)\发射机程序_Git\MDK_Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.24b, compiled Feb 22 2011 20:47:17
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.332V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 9600 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...

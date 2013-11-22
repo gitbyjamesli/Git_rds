@@ -69,11 +69,12 @@ uint16_t dav_save=0;//温度故障恢复时用
 //#define RDS_DEVICES_OFF_SPK 0
 
  //调音表
+/*
 unsigned char const  Tiaoyin[]={0x00,0x01,0x02,0x03,
                       0x04,0x05,0x06,0x07,
                       0x0f,0x0e,0x0d,0x0c,
                       0x0b,0x0a,0x09,0x08};
-
+*/
 // 我的数据类型定义
 typedef struct
 {
@@ -391,7 +392,7 @@ void COM1_2Init(void)
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
 	GPIO_Init(GPIOA, &GPIO_InitStructure);
 
-	USART2_InitStructure.USART_BaudRate = 115200;//9600;
+	USART2_InitStructure.USART_BaudRate = 9600;
 	USART2_InitStructure.USART_WordLength = USART_WordLength_8b;
 	USART2_InitStructure.USART_StopBits = USART_StopBits_1;
 	USART2_InitStructure.USART_Parity = USART_Parity_No;
@@ -2871,21 +2872,6 @@ tab1:
 			}
 			else  //不可恢复，需重启
 			{
-			   	/*
-				if(HighCURRENTWarning_Flag == SET)
-				{   
-			    	if(VIN_AND_EN==OK)
-					 Show_TX(PTT_status=SET);// 显示发射机状态
-
-					TX_LED_ON();
-					TX_status=SET;
-					os_evt_set(ALARM_END_EVENT,tid_alarm_task);// 发送一个结束信号给报警任务
-					Draw_Fill(1,39,190,63,0);// 画一空白区域
-					HighCURRENTWarning_Flag = RESET;
-					KEY_Status_AllClear();
-					goto update_v1;
-				}
-			   */
 			   ;
 			}
 			//=======================
@@ -2911,20 +2897,7 @@ tab1:
 			}
 			else  //不可恢复，需重启
 			{
-				/*
-				if(HighSWRWarning_Flag == SET)
-				{   
-			    	if(VIN_AND_EN==OK)
-					 Show_TX(PTT_status=SET);// 显示发射机状态
-					TX_LED_ON();
-					TX_status=SET;
-					os_evt_set(ALARM_END_EVENT,tid_alarm_task);// 发送一个结束信号给报警任务
-					Draw_Fill(1,39,190,63,0);// 画一空白区域
-					HighSWRWarning_Flag = RESET;
-					KEY_Status_AllClear();
-					goto update_v1;
-				}
-				*/
+			;
 			}
 
  			if(Vn_mv > (Vp_mv*5/4) && abs(RP_value)>5) //过反射功率保护  ,反向功率大于正向功率的1/4
