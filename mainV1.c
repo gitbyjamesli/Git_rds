@@ -62,7 +62,7 @@ uint16_t const  jiaozheng[]={160,150,140,130,125,120,110,100};
 #define OK      1		   //      报警任务等待的结束信号
 
 uint16_t dav_save=0;//温度故障恢复时用
-
+uint16_t Power_set_save=0;//温度故障恢复时用
 //#define RDS_DEVICES_BIG_SPK 3
 //#define RDS_DEVICES_MIDDLE_SPK 2
 //#define RDS_DEVICES_SMALL_SPK 1
@@ -242,6 +242,8 @@ void KEY_config(void)
 								 |GPIO_Pin_5
 								 |GPIO_Pin_12;
 	GPIO_Init(GPIOB, &GPIO_InitStructure);
+
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;// 上拉输入
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_4|GPIO_Pin_5|GPIO_Pin_10|GPIO_Pin_11|GPIO_Pin_12;
 	GPIO_Init(GPIOC, &GPIO_InitStructure);
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_7;
@@ -254,8 +256,8 @@ void KEY_config(void)
 	GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource12);// 
 	GPIO_EXTILineConfig(GPIO_PortSourceGPIOC, GPIO_PinSource4);//
 	GPIO_EXTILineConfig(GPIO_PortSourceGPIOC, GPIO_PinSource5);//
-	GPIO_EXTILineConfig(GPIO_PortSourceGPIOC, GPIO_PinSource10);//
-	GPIO_EXTILineConfig(GPIO_PortSourceGPIOC, GPIO_PinSource11);//
+	//GPIO_EXTILineConfig(GPIO_PortSourceGPIOC, GPIO_PinSource10);//
+	//GPIO_EXTILineConfig(GPIO_PortSourceGPIOC, GPIO_PinSource11);//
 
     EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;     // 
     EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling; // 下降沿  
@@ -266,9 +268,9 @@ void KEY_config(void)
 	                              |EXTI_Line7
 	                              |EXTI_Line12
 	                              |EXTI_Line4
-								  |EXTI_Line5
-	                              |EXTI_Line10
-								  |EXTI_Line11;
+								  |EXTI_Line5;
+	                              //|EXTI_Line10
+								  //|EXTI_Line11;
     EXTI_Init(&EXTI_InitStructure);
 	/*
 	GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource5);//
@@ -454,12 +456,7 @@ void COM1_2Init(void)
 	USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);// 使能接收中断
 	//USART_ITConfig(USART1, USART_IT_TXE, ENABLE);// 使能发送中断
 	USART_Cmd(USART1, ENABLE);// 最后使能串口1 
-//*/
-//   	while(1)
-//	{
-//     USART_SendData(USART1, 0x55);
-//	 delayms();
-//	 }
+
 }
 
 /***************************************************************
@@ -2808,8 +2805,8 @@ tab1:
 				DAC5615Out(0);// 
 				powerval_bak = 0; 
 				fmval_bak = 0;
-				dav_save=0;
-			 
+				dav_save=dav_save*0.707;//慢慢下降
+			 	Power_set_save=Power_set/2;
 
 			 }
 
@@ -2819,7 +2816,8 @@ tab1:
 				DAC5615Out(0);// 
 				powerval_bak = 0; //
 				fmval_bak = 0;
-				dav_save=0;
+				dav_save=dav_save;//从半值处慢慢上升
+				Power_set_save=Power_set;
 			 }
 
 			if(T_value > TP_set) //高温报警
@@ -3201,14 +3199,16 @@ void AutoAdjustPower_task(void)
 						  )		
 		{
 			//ER_LED_ON();
-			dav=0;adjct=0;
+			dav=0;
+			adjct=0;
 			DAC5615Out(dav_save);//如果从设置功率、频率中返回，继续上次的值
+			if(tp_adjust_p==SET)
+			  dav=dav_save;
 			do
 			{	if(tp_adjust_p==SET)
 				 {
-					if(Power_value > (Power_set/2))	//温度达到65度时，调至一半
+					if(Power_value > (Power_set_save))	//Power_set/2 温度达到65度时，调至一半
 					{
-	
 						if(dav>10)
 						{
 							DAC5615Out(dav-=10);
@@ -3226,7 +3226,6 @@ void AutoAdjustPower_task(void)
 				  {
 					if(Power_value > (Power_set))
 					{
-	
 						if(dav>10)
 						{
 							DAC5615Out(dav-=10);
@@ -3266,7 +3265,7 @@ void AutoAdjustPower_task(void)
 			 powerval_bak = Power_set;
 			 fmval_bak = FM_value;
 			 tp_adjust_p=RESET;
-			 dav_save=0;
+			 dav_save=dav;
 			}
 
 		if(HighTempWarning_Flag==SET	||             
@@ -3297,10 +3296,10 @@ void AutoAdjustPower_task(void)
 __task
 void AutoChoiceAudio_task(void)
 {
-	uint8_t status_tmp,
-	        status_new,
-	        status_save;
-	        
+	uint8_t status_tmp=0,
+	        status_new=0,
+	        status_save=0;
+    uint16_t sound_ch_input_count=0;	        
 
 	while(1)
 	{
@@ -3313,17 +3312,23 @@ void AutoChoiceAudio_task(void)
 		{	
 			status_tmp=3;	
 		 }	
-		else if( AUX_INPUT_STATUS()== SET )	//PC10
+		else if( !GPIO_ReadInputDataBit(GPIOC, GPIO_Pin_10))	// AUX_INPUT_STATUS()== SET     PC10
 		{
 			status_tmp=2; 
 		 }
-		else if( MP3_INPUT_STATUS()== SET )	
+		else if( !GPIO_ReadInputDataBit(GPIOC, GPIO_Pin_11) )// MP3_INPUT_STATUS()== SET
 		{
 			status_tmp=1; 
 		 }
 
-		if(status_save!=status_tmp)
-		 {
+		if(status_save!=status_tmp)	//防抖延时
+		{
+
+		 if(!sound_ch_switch_Timeout_Count)
+		 sound_ch_input_count++;
+
+		 if(sound_ch_input_count>20) 
+		  {
 			  if(status_save<status_tmp)//从优先级低的切换到高,立即切换
 			   {
 			   	switch (status_tmp)
@@ -3345,9 +3350,10 @@ void AutoChoiceAudio_task(void)
 			      } 
 				  status_save=status_tmp;
 				  status_new=0;
+				  sound_ch_input_count=0;
 			     }
 	
-			  if(status_save>status_tmp)//从优先级高的切换到低,延时5S再切换
+			  if(status_save>status_tmp)//从优先级高的切换到低,延时30S再切换
 			   {
 			    if(status_new!=status_tmp)
 				{
@@ -3374,9 +3380,17 @@ void AutoChoiceAudio_task(void)
 							break;
 				      } 
 			      status_save=status_tmp;
+				  sound_ch_input_count=0;
 				  }
 			   }
 
+		  }
+
+		 }
+		else
+		  {
+		   sound_ch_input_count=0;
+		   sound_ch_switch_Timeout_Count=0;
 		  }
 
 		os_dly_wait(5);

@@ -514,10 +514,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>24</ColumnNumber>
+      <ColumnNumber>29</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>2711</TopLine>
-      <CurrentLine>2711</CurrentLine>
+      <TopLine>446</TopLine>
+      <CurrentLine>451</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\mainV1.c</PathWithFileName>
       <FilenameWithoutPath>mainV1.c</FilenameWithoutPath>
@@ -544,7 +544,7 @@
       <Focus>0</Focus>
       <ColumnNumber>5</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>188</TopLine>
+      <TopLine>192</TopLine>
       <CurrentLine>206</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\DrawPicture.c</PathWithFileName>
@@ -584,10 +584,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>17</ColumnNumber>
+      <ColumnNumber>23</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>201</TopLine>
-      <CurrentLine>214</CurrentLine>
+      <TopLine>225</TopLine>
+      <CurrentLine>237</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\stm32f10x_it.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_it.c</FilenameWithoutPath>
@@ -661,10 +661,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>8</ColumnNumber>
+      <ColumnNumber>25</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1164</TopLine>
-      <CurrentLine>1171</CurrentLine>
+      <TopLine>166</TopLine>
+      <CurrentLine>168</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\li_code\app.c</PathWithFileName>
       <FilenameWithoutPath>app.c</FilenameWithoutPath>
@@ -771,32 +771,6 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>d:\Keil\ARM\RV31\INC\RTL.h</PathWithFilename>
-    <TopLine>298</TopLine>
-    <CurrentLine>304</CurrentLine>
-    <Constant>0</Constant>
-    <WindowPosition>
-      <length>0</length>
-      <flags>0</flags>
-      <showCmd>0</showCmd>
-      <MinPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MinPosition>
-      <MaxPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MaxPosition>
-      <NormalPosition>
-        <Top>0</Top>
-        <Left>0</Left>
-        <Right>0</Right>
-        <Bottom>0</Bottom>
-      </NormalPosition>
-    </WindowPosition>
-  </AlienFiles>
-
-  <AlienFiles>
     <PathWithFilename>I:\RDS资料\项目程序(发射)\发射机程序_Git\show.h</PathWithFilename>
     <TopLine>8</TopLine>
     <CurrentLine>22</CurrentLine>
@@ -848,17 +822,55 @@
     </WindowPosition>
   </AlienFiles>
 
+  <AlienFiles>
+    <PathWithFilename>d:\Keil\ARM\RV31\INC\RTL.h</PathWithFilename>
+    <TopLine>305</TopLine>
+    <CurrentLine>312</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
   <MDIGroups>
     <Orientation>1</Orientation>
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>8</ActiveTab>
+      <ActiveTab>5</ActiveTab>
       <Documents>
+        <Doc>
+          <Name>d:\Keil\ARM\RV31\INC\RTL.h</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>305</TopLine>
+          <CurrentLine>312</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\li_code\app.c</Name>
+          <ColumnNumber>25</ColumnNumber>
+          <TopLine>166</TopLine>
+          <CurrentLine>168</CurrentLine>
+        </Doc>
         <Doc>
           <Name>..\DrawPicture.c</Name>
           <ColumnNumber>5</ColumnNumber>
-          <TopLine>188</TopLine>
+          <TopLine>192</TopLine>
           <CurrentLine>206</CurrentLine>
         </Doc>
         <Doc>
@@ -869,15 +881,15 @@
         </Doc>
         <Doc>
           <Name>..\stm32f10x_it.c</Name>
-          <ColumnNumber>17</ColumnNumber>
-          <TopLine>201</TopLine>
-          <CurrentLine>214</CurrentLine>
+          <ColumnNumber>23</ColumnNumber>
+          <TopLine>225</TopLine>
+          <CurrentLine>237</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\mainV1.c</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>2669</TopLine>
-          <CurrentLine>2676</CurrentLine>
+          <ColumnNumber>29</ColumnNumber>
+          <TopLine>446</TopLine>
+          <CurrentLine>451</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\show.h</Name>
@@ -896,18 +908,6 @@
           <ColumnNumber>11</ColumnNumber>
           <TopLine>158</TopLine>
           <CurrentLine>158</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>d:\Keil\ARM\RV31\INC\RTL.h</Name>
-          <ColumnNumber>8</ColumnNumber>
-          <TopLine>298</TopLine>
-          <CurrentLine>304</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>..\li_code\app.c</Name>
-          <ColumnNumber>9</ColumnNumber>
-          <TopLine>217</TopLine>
-          <CurrentLine>231</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\i2c.h</Name>

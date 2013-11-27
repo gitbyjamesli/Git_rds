@@ -151,6 +151,7 @@ FlagStatus AUX_INPUT_STATUS(void)
 	}
 	else
 	{
+	    //EXTI_ClearFlag(EXTI_Line10);
 		return RESET;
 	}
 }
@@ -164,6 +165,7 @@ FlagStatus MP3_INPUT_STATUS(void)
 	}
 	else
 	{
+	    //EXTI_ClearFlag(EXTI_Line11);
 		return RESET;
 	}
 }

@@ -238,6 +238,7 @@ void USART1_IRQHandler(void)//Å£½Ç×ù¿Ú
 			packet_tct = 0;
 			packet_T_OK = SET;//·¢ËÍÍê±Ï
 			USART_ITConfig(USART1, USART_IT_TXE, DISABLE);
+
 		}
 
 	}
