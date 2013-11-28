@@ -107,4 +107,5 @@ extern u8 Reg0_save;
 extern u8 pc_area_group_terminal_set_flag;
 extern MYSTATE pc_gbset;
 extern uint8_t rds_state; 
+extern void SYS_PARAMETER_Update(void);
 #endif

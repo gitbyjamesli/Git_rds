@@ -2545,6 +2545,7 @@ void CollectShowSWR(void)
 {
 	//SWR_value=abs((ADC_VALUE_Vp+ADC_VALUE_Vn)/(ADC_VALUE_Vp-ADC_VALUE_Vn));
 	SWR_value=filter_swr( abs((ADC_VALUE_Vp+ADC_VALUE_Vn)/(ADC_VALUE_Vp-ADC_VALUE_Vn)) );
+	if(SWR_value>99)SWR_value=99;
 	Show_SWR(SWR_value);
 }
 
@@ -3246,7 +3247,7 @@ void AutoAdjustPower_task(void)
 				  }
 
 				os_dly_wait(10);
-				if(++adjct>150)break;//超过15秒
+				if(++adjct>300)break;//超过15秒
 				
 			}while(abs(Power_set-Power_value)>2 && 
 			       fm_rf_set==RESET  && //调整过程中，如果进入设置频率、功率时退出
