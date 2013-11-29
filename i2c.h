@@ -36,7 +36,7 @@ static
 void WaitUs(void)
 {
 	u32 i;
-	for(i=60;i>0;i--);
+	for(i=100;i>0;i--);
 }
 
 static 

@@ -1887,7 +1887,7 @@ gb_update:
 						Show_DevStatus_Group(1,1);// 1行	
 						Show_DevStatus_Group(0,0);// 0行 
 
-						area_group_terminal_set_flag=1;;// 区域统一设置命令待添加中
+						area_group_terminal_set_flag=1;// 区域统一设置命令待添加中
 					}
 					else if(set_target==3)
 					{
@@ -2226,6 +2226,7 @@ gb_update:
 					menu_set=SET;
 					os_dly_wait(50);
 					Setup_RDSMode(RDSMode_pos);
+
 					break;
 				
 				default:break;
@@ -2614,7 +2615,7 @@ void main_task(void)
 	unsigned char sample_count=0;
 
 	DAC5615Out(0);// 初始化，上电第一时间先让5615输出0V。
-	Delay_ms(5000);
+	Delay_ms(100);
 
 	LCD19264_Init();
 	LCD19264_BG_Open();
@@ -2662,12 +2663,17 @@ PT2314init:
 	PT2314_Setup_CVD(3,GAIN_OFF);				       // 接通道收机   3通道
 	QN8027_Init();
 
+	os_dly_wait(10);
     //读取参数
 	if(Check_EEprom_init()==RESET)
 	{
+
 		SYS_PARAMETER_Update();
+		os_dly_wait(10);
 		PS_Name_Update();
+		os_dly_wait(10);
 		Area_Name_Update();
+		os_dly_wait(10);
 		RDS_DevicesGroup_Mode_Update(area_num);
 	}
 
@@ -2675,14 +2681,7 @@ PT2314init:
 	PT2314_Setup_Volume(Volume_value);
 	PT2314_Setup_Treble(Treble_value);
 	PT2314_Setup_Bass(Bass_value);
-	///*
-	if(rds_state==0)//全关
-      area_group_terminal_set_flag=5;
-	if(rds_state==1)//全开
-      area_group_terminal_set_flag=4;
-	if(rds_state==2)//设置
-      area_group_terminal_set_flag=0;
-	 //*/
+
 	//while(1);
 // 2.创建几个任务
 	os_tsk_create(RDS_task,1);                         // 建立小李的RDS任务
@@ -2702,6 +2701,14 @@ PT2314init:
 // 2.进入主界面
 main_window_entry:
     //PCRDS_Blinking_flag=ON;
+
+	if(rds_state==0)//全关
+      area_group_terminal_set_flag=5;
+	if(rds_state==1)//全开
+      area_group_terminal_set_flag=4;
+	if(rds_state==2)//设置
+      area_group_terminal_set_flag=0;
+
 	os_mut_wait(LCD_mutex,0xffff);
 	Draw_Clear();	
 	Draw_Rect(0,0,        191,63,  1);// 屏幕大方框

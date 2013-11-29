@@ -1124,8 +1124,9 @@ FlagStatus Check_EEprom_init(void)
   if(tmp!=0xA5)	//新板初始化参数
   {
 	EEPROM_Write1Byte(EEPROM_INIT_ADDR,0xA5);
+	os_dly_wait(10);
 
-    FM_value=88000;
+    FM_value=101700;
 	UNION_DATA.SYS_PARAMETER.ui_FM_value=FM_value;
 	  									
 	Volume_value=32;
@@ -1138,7 +1139,7 @@ FlagStatus Check_EEprom_init(void)
 	Bass_value=7;  
     UNION_DATA.SYS_PARAMETER.ui_Audio_B=Bass_value;
 	  
-	Power_set=150;
+	Power_set=35;
 	UNION_DATA.SYS_PARAMETER.ui_RF_POWER=Power_set;
 	  
 	TP_set=60;
@@ -1151,10 +1152,10 @@ FlagStatus Check_EEprom_init(void)
 	PE_value=50;
     UNION_DATA.SYS_PARAMETER.ui_pe_value=PE_value;
 	  
-	pty_num=1;
+	pty_num=0;
 	UNION_DATA.SYS_PARAMETER.ui_psnum=pty_num; //读PS号
 	
-	area_num=1;
+	area_num=0;
 	UNION_DATA.SYS_PARAMETER.ui_areanum=area_num; //读取区域号
 	  
 	rds_state=2;
@@ -1165,13 +1166,13 @@ FlagStatus Check_EEprom_init(void)
 	//台标
 	for(i=0;i<33;i++)
 	{
-	tmpdata[i]=0;
+	tmpdata[i]='0';
 	}
 	for(z=0;z<10;z++)
 	{
 		for(d=0;d<8;d++)
 		{
-			PS_Name[z][d] = tmpdata[d+(z%2)*16]; //
+			PS_Name[z][d] = tmpdata[0]; //
 		}
 
 	}
@@ -1182,7 +1183,7 @@ FlagStatus Check_EEprom_init(void)
 	{
 		for(d=0;d<7;d++)
 		{
-			Area_Name[z][d] = tmpdata[d+(z%2)*16]; //
+			Area_Name[z][d] = tmpdata[0]; //
 		}
 	}
 	Area_Name_Save();
@@ -1196,13 +1197,13 @@ FlagStatus Check_EEprom_init(void)
 	{
 		for(d=0;d<16;d++)
 		{
-			RDS_DevicesGroup_Mode[z][d] = tmpdata[d+(z%2)*16]; // 喇叭状态
+			RDS_DevicesGroup_Mode[z][d] = tmpdata[0]; // 喇叭状态
 		}
 	}
-
-	for(z=0;z<24;z++)//
+	for(z=0;z<18;z++)//24
 	{
      RDS_DevicesGroup_Mode_Save(z);
+	 os_dly_wait(10);
 	 }
 
 

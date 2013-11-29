@@ -2,11 +2,12 @@
 #define __ALL_H__
 #include "stm32f10x.h"
 
+//24C64的地址范围为0x0000-0x1fff ,容量8K（8192）字节  ，
 #define EEPROM_INIT_ADDR         0x0000
 #define PS_NAME_ADDR             0x0020 
 #define AREA_NAME_ADDR           0x00C0  //32*6 
 #define SYS_PARAMETER_ADDR       0x0200   
-#define DEVICESGROUP_MODE_ADDR   0x0220  //范围0x0220~0x0520   因为32*24=0x0300; 
+#define DEVICESGROUP_MODE_ADDR   0x0220  //范围0x0220~   因为16*24*24=9216=0x2400; 
 
 
 #define OFF      0x0
