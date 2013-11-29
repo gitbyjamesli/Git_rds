@@ -2,7 +2,14 @@
 #define __ALL_H__
 #include "stm32f10x.h"
 
- #define OFF      0x0
+#define EEPROM_INIT_ADDR         0x0000
+#define PS_NAME_ADDR             0x0020 
+#define AREA_NAME_ADDR           0x00C0  //32*6 
+#define SYS_PARAMETER_ADDR       0x0200   
+#define DEVICESGROUP_MODE_ADDR   0x0220  //·¶Î§0x0220~0x0520   ÒòÎª32*24=0x0300; 
+
+
+#define OFF      0x0
 #define ON       0x1
 
 typedef struct  
@@ -108,4 +115,11 @@ extern u8 pc_area_group_terminal_set_flag;
 extern MYSTATE pc_gbset;
 extern uint8_t rds_state; 
 extern void SYS_PARAMETER_Update(void);
+extern void PS_Name_Update(void);
+extern void Area_Name_Update(void);
+extern void RDS_DevicesGroup_Mode_Update(uint8_t num);
+extern FlagStatus Check_EEprom_init(void);
+extern void PS_Name_Save(void);
+extern void Area_Name_Save(void);
+extern void RDS_DevicesGroup_Mode_Save(uint8_t num);
 #endif

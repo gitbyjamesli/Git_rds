@@ -940,7 +940,7 @@ void SYS_PARAMETER_Update(void)
 {
     u8 i=0;
 
-	EEPROM_ReadBytes(0x0200,&UNION_DATA.uchar_part[0],15);
+	EEPROM_ReadBytes(SYS_PARAMETER_ADDR,&UNION_DATA.uchar_part[0],15);
 
 	FM_value=UNION_DATA.SYS_PARAMETER.ui_FM_value;
     if(FM_value<76000||FM_value>108000)
@@ -989,7 +989,7 @@ void SYS_PARAMETER_Update(void)
 
 void SYS_PARAMETER_Save(void)
 {
-	EEPROM_WriteBytes(0x0200,&UNION_DATA.uchar_part[0],15);
+	EEPROM_WriteBytes(SYS_PARAMETER_ADDR,&UNION_DATA.uchar_part[0],15);
 }
 
 void PS_Name_Update(void)
@@ -1001,7 +1001,7 @@ void PS_Name_Update(void)
 	{
         if(!(z%2))
 		 {
-		 EEPROM_ReadBytes(32*(z/2),tmp,32);
+		 EEPROM_ReadBytes(PS_NAME_ADDR+32*(z/2),tmp,32);
 		 os_dly_wait(5);
 		  }
 		for(d=0;d<8;d++)
@@ -1025,7 +1025,7 @@ void PS_Name_Save(void)
 		}
         if(z%2)
 		 {
-		 EEPROM_WriteBytes(32*(z/2),tmp,32);
+		 EEPROM_WriteBytes(PS_NAME_ADDR+32*(z/2),tmp,32);
 		 os_dly_wait(5);
 		  }
 
@@ -1041,7 +1041,7 @@ void Area_Name_Update(void)
 	{
         if(!(z%2))
 		 {
-		 EEPROM_ReadBytes(32*(z/2+6),tmp,32);
+		 EEPROM_ReadBytes(AREA_NAME_ADDR+32*(z/2),tmp,32);
 		 os_dly_wait(5);
 		  }
 		for(d=0;d<7;d++)
@@ -1065,7 +1065,7 @@ void Area_Name_Save(void)
 		}
         if(z%2)
 		 {
-		 EEPROM_WriteBytes(32*(z/2+6),tmp,32);
+		 EEPROM_WriteBytes(AREA_NAME_ADDR+32*(z/2),tmp,32);
 		 os_dly_wait(5);
 		  }
 
@@ -1081,7 +1081,7 @@ void RDS_DevicesGroup_Mode_Update(uint8_t num)
 	{
         if(!(z%2))//每次读出32字节
 		 {
-		 EEPROM_ReadBytes(0x0200+32*(z/2+1)+(24/2)*32*num,tmp,32);
+		 EEPROM_ReadBytes(DEVICESGROUP_MODE_ADDR+32*(z/2)+(24/2)*32*num,tmp,32);
 		 os_dly_wait(5);
 		  }
 		for(d=0;d<16;d++)
@@ -1105,13 +1105,112 @@ void RDS_DevicesGroup_Mode_Save(uint8_t num)
 		}
         if(z%2)//每次存32字节
 		 {
-		 EEPROM_WriteBytes(0x0200+32*(z/2+1)+(24/2)*32*num,tmp,32);
+		 EEPROM_WriteBytes(DEVICESGROUP_MODE_ADDR+32*(z/2)+(24/2)*32*num,tmp,32);
 		 os_dly_wait(5);
 		  }
 
 	}
 }
 
+
+FlagStatus Check_EEprom_init(void)
+{
+
+  uint8_t tmp;
+  uint8_t i,z,d,tmpdata[33]; 
+
+
+  tmp=EEPROM_Read1Byte(EEPROM_INIT_ADDR);
+  if(tmp!=0xA5)	//新板初始化参数
+  {
+	EEPROM_Write1Byte(EEPROM_INIT_ADDR,0xA5);
+
+    FM_value=88000;
+	UNION_DATA.SYS_PARAMETER.ui_FM_value=FM_value;
+	  									
+	Volume_value=32;
+	UNION_DATA.SYS_PARAMETER.ui_Audio_VOL=Volume_value;
+
+	 
+	Treble_value=7;
+    UNION_DATA.SYS_PARAMETER.ui_Audio_H=Treble_value;
+
+	Bass_value=7;  
+    UNION_DATA.SYS_PARAMETER.ui_Audio_B=Bass_value;
+	  
+	Power_set=150;
+	UNION_DATA.SYS_PARAMETER.ui_RF_POWER=Power_set;
+	  
+	TP_set=60;
+    UNION_DATA.SYS_PARAMETER.ui_TEMP=TP_set;
+	
+	SWRP_set=30;	  
+	UNION_DATA.SYS_PARAMETER.ui_SWR=SWRP_set;
+
+	  
+	PE_value=50;
+    UNION_DATA.SYS_PARAMETER.ui_pe_value=PE_value;
+	  
+	pty_num=1;
+	UNION_DATA.SYS_PARAMETER.ui_psnum=pty_num; //读PS号
+	
+	area_num=1;
+	UNION_DATA.SYS_PARAMETER.ui_areanum=area_num; //读取区域号
+	  
+	rds_state=2;
+	UNION_DATA.SYS_PARAMETER.ui_rds_state=rds_state; //读取区域号
+	  
+	SYS_PARAMETER_Save();
+
+	//台标
+	for(i=0;i<33;i++)
+	{
+	tmpdata[i]=0;
+	}
+	for(z=0;z<10;z++)
+	{
+		for(d=0;d<8;d++)
+		{
+			PS_Name[z][d] = tmpdata[d+(z%2)*16]; //
+		}
+
+	}
+	PS_Name_Save();
+
+	//区域名
+	for(z=0;z<20;z++)
+	{
+		for(d=0;d<7;d++)
+		{
+			Area_Name[z][d] = tmpdata[d+(z%2)*16]; //
+		}
+	}
+	Area_Name_Save();
+
+   //终端状态
+	for(i=0;i<33;i++)
+	{
+	 tmpdata[i]=0;
+	}
+	for(z=0;z<24;z++)
+	{
+		for(d=0;d<16;d++)
+		{
+			RDS_DevicesGroup_Mode[z][d] = tmpdata[d+(z%2)*16]; // 喇叭状态
+		}
+	}
+
+	for(z=0;z<24;z++)//
+	{
+     RDS_DevicesGroup_Mode_Save(z);
+	 }
+
+
+	return SET;
+	}
+
+  return RESET;
+}
 
 __task
 void RDS_task(void)	 
@@ -1120,11 +1219,11 @@ void RDS_task(void)
 	txt_int();
 	adc_int();
 	//SYS_PARAMETER_Update();
-	PS_Name_Update();
-	Area_Name_Update();
+	//PS_Name_Update();
+	//Area_Name_Update();
 	ps_int();
 	//TP_set=99;
-	RDS_DevicesGroup_Mode_Update(area_num);//读取各个终端号值，以便发射机初始化终端机
+	//RDS_DevicesGroup_Mode_Update(area_num);//读取各个终端号值，以便发射机初始化终端机
 
 
 	psys_data=&UNION_DATA.SYS_PARAMETER;

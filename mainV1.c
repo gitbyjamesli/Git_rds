@@ -193,10 +193,6 @@ uint8_t PCRDS_Blinking_flag=OFF;
 uint16_t Disconnect_pc=0;
 
 
-
-
-
-
 // 函数原型------------------------------------------------------------------------
 __task void InitTask(void);// 第一个开始运行的任务
 __task void main_task(void);// 主任务
@@ -2662,12 +2658,19 @@ PT2314init:
 		}
 	}
 	PCRDS_Blinking_flag=OFF;
-// 确定几个参数
-	Power_set=20;
-	//FM_value = 101700;
+
 	PT2314_Setup_CVD(3,GAIN_OFF);				       // 接通道收机   3通道
 	QN8027_Init();
-	SYS_PARAMETER_Update();
+
+    //读取参数
+	if(Check_EEprom_init()==RESET)
+	{
+		SYS_PARAMETER_Update();
+		PS_Name_Update();
+		Area_Name_Update();
+		RDS_DevicesGroup_Mode_Update(area_num);
+	}
+
 	QNd8027_SetChannel((FM_value-76000)/50);
 	PT2314_Setup_Volume(Volume_value);
 	PT2314_Setup_Treble(Treble_value);
