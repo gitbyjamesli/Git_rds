@@ -275,13 +275,15 @@ void RDSsend_state(void)
 
 	uint8_t z=0,d;
 	uint8_t	stmp[33];
-	 
-   if(zuhao>10)	zuhao=0;
+
+repeat:	 
+   if(zuhao>23)	zuhao=0;
    //memset(tmpbuff, 0, sizeof(tmpbuff));
 	tmpbuff[0]=0;
 	tmpbuff[1]=0;
 	tmpbuff[2]=0;
 	tmpbuff[3]=0;
+
 
 	for(d=0;d<16;d++)
 	{
@@ -298,6 +300,11 @@ void RDSsend_state(void)
 		   tmpbuff[3]|=stmp[d+(z%2)*16]<<(6-(d-12)*2);
 	}
 
+   if(tmpbuff[0]==0&&tmpbuff[1]==0&&tmpbuff[2]==0&&tmpbuff[3]==0)  	//	状态为零的不需发
+   {
+    zuhao++;
+	goto repeat;
+    }
 
 	strbuf2[0]='S';//状态
 	strbuf2[1]=area_num; //区域号

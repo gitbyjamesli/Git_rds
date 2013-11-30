@@ -526,7 +526,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>14</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>2666</TopLine>
       <CurrentLine>2668</CurrentLine>
@@ -673,10 +673,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>19</ColumnNumber>
+      <ColumnNumber>25</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1120</TopLine>
-      <CurrentLine>1123</CurrentLine>
+      <TopLine>307</TopLine>
+      <CurrentLine>318</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\li_code\app.c</PathWithFileName>
       <FilenameWithoutPath>app.c</FilenameWithoutPath>
@@ -703,32 +703,6 @@
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
   </Group>
-
-  <AlienFiles>
-    <PathWithFilename>I:\RDS资料\项目程序(发射)\发射机程序_Git\i2c.h</PathWithFilename>
-    <TopLine>99</TopLine>
-    <CurrentLine>106</CurrentLine>
-    <Constant>0</Constant>
-    <WindowPosition>
-      <length>0</length>
-      <flags>0</flags>
-      <showCmd>0</showCmd>
-      <MinPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MinPosition>
-      <MaxPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MaxPosition>
-      <NormalPosition>
-        <Top>0</Top>
-        <Left>0</Left>
-        <Right>0</Right>
-        <Bottom>0</Bottom>
-      </NormalPosition>
-    </WindowPosition>
-  </AlienFiles>
 
   <AlienFiles>
     <PathWithFilename>I:\RDS资料\项目程序(发射)\发射机程序_Git\show.h</PathWithFilename>
@@ -886,6 +860,32 @@
     </WindowPosition>
   </AlienFiles>
 
+  <AlienFiles>
+    <PathWithFilename>I:\RDS资料\项目程序(发射)\发射机程序_Git\i2c.h</PathWithFilename>
+    <TopLine>99</TopLine>
+    <CurrentLine>106</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
   <MDIGroups>
     <Orientation>1</Orientation>
     <ActiveMDIGroup>0</ActiveMDIGroup>
@@ -913,9 +913,9 @@
         </Doc>
         <Doc>
           <Name>..\li_code\app.c</Name>
-          <ColumnNumber>28</ColumnNumber>
-          <TopLine>1108</TopLine>
-          <CurrentLine>1116</CurrentLine>
+          <ColumnNumber>18</ColumnNumber>
+          <TopLine>268</TopLine>
+          <CurrentLine>272</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\show.c</Name>
@@ -931,7 +931,7 @@
         </Doc>
         <Doc>
           <Name>..\mainV1.c</Name>
-          <ColumnNumber>14</ColumnNumber>
+          <ColumnNumber>0</ColumnNumber>
           <TopLine>2666</TopLine>
           <CurrentLine>2668</CurrentLine>
         </Doc>
